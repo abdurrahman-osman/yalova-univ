@@ -1,0 +1,20 @@
+Nodejs:
+npm install express
+touch index.js
+node index.js
+
+
+Flask:
+pip3 install virtualenv
+virtualenv venv
+source ./venv/bin/activate
+pip3 install Flask
+touch app.py
+python3 app.py
+
+
+Golang:
+touch main.go
+go mod init main
+go mod tidy
+go run main.go
